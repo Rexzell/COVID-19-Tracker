@@ -1,0 +1,45 @@
+body {
+  background-color: #F5F0F0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2{
+  font-family: arial;
+}
+
+.cardTitle{
+  background: #FFF;
+  width: 51%;
+  text-align: center;
+  border-bottom: 10px solid #000;
+  border-top: 10px solid #000;
+  margin-top: 30px;
+}
+
+.cards{
+  background: #FFF;
+}
+
+.image {
+  width: 600px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .cardTitle{
+    width: 80%;
+  }
+}
